@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 export default function ContactPage() {
   return (
-    <section className="container mx-auto py-8">
+    <section className="container mx-auto flex h-[calc(100vh-8rem)] items-center justify-center text-center">
       <h1 className="text-4xl font-bold">Contato</h1>
       <p className="mt-4 text-lg text-muted-foreground">
         Entre em contato comigo através do formulário abaixo.

@@ -1,7 +1,7 @@
 
 export default function AboutPage() {
   return (
-    <section className="container mx-auto py-8">
+    <section className="container mx-auto flex h-[calc(100vh-8rem)] items-center justify-center text-center">
       <h1 className="text-4xl font-bold">Resume</h1>
       <div className="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-0 before:h-full before:w-[10px] before:bg-[#974AAA] before:rounded-full">
       <p className="mt-4 text-lg text-muted-foreground">
