@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Dev Portfolio",
   description: "A developer portfolio template using Next.js and Shadcn/UI.",
+  icons: {
+    icon: '/favicon.png'
+  },
 };
 
 export default function RootLayout({
