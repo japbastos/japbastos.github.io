@@ -1,12 +1,12 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
 
 export default function ContactPage() {
   return (
     <section className="container mx-auto h-[calc(100vh-8rem)]">
       <h1 className="text-4xl font-bold">Contato</h1>
-      <p className="mt-4 text-lg text-muted-foreground">
+      <p className="text-muted-foreground mt-4 text-lg">
         Entre em contato comigo através do formulário abaixo.
       </p>
 

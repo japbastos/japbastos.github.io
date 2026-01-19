@@ -4,10 +4,10 @@ import {
   CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+  CardTitle
+} from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function ProjectsPage() {
   return (
@@ -22,9 +22,7 @@ export default function ProjectsPage() {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p>
-              Tecnologias utilizadas: Next.js, TypeScript, Shadcn/UI, etc.
-            </p>
+            <p>Tecnologias utilizadas: Next.js, TypeScript, Shadcn/UI, etc.</p>
           </CardContent>
           <CardFooter className="flex gap-4">
             <Button asChild variant="secondary">

@@ -1,7 +1,7 @@
 ---
-title: "Meu Primeiro Post"
-date: "2025-12-01"
-description: "Este é o meu primeiro post no blog, criado a partir de um arquivo Markdown."
+title: 'Meu Primeiro Post'
+date: '2025-12-01'
+description: 'Este é o meu primeiro post no blog, criado a partir de um arquivo Markdown.'
 ---
 
 ## Olá, Mundo!

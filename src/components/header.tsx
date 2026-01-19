@@ -1,9 +1,9 @@
-import Link from "next/link";
-import { ThemeToggle } from "./theme-toggle";
+import Link from 'next/link';
+import { ThemeToggle } from './theme-toggle';
 
 export function Header() {
   return (
-    <header className="py-4 mx-auto">
+    <header className="mx-auto py-4">
       <nav className="container mx-auto flex items-center justify-between">
         <ul className="flex gap-4">
           <li>

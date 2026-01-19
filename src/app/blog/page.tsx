@@ -1,5 +1,5 @@
-import { getSortedPostsData } from "@/lib/posts";
-import Link from "next/link";
+import { getSortedPostsData } from '@/lib/posts';
+import Link from 'next/link';
 
 export default function BlogPage() {
   const allPosts = getSortedPostsData();
@@ -7,7 +7,7 @@ export default function BlogPage() {
   return (
     <section className="container mx-auto h-[calc(100vh-8rem)]">
       <h1 className="text-4xl font-bold">Blog</h1>
-      <p className="mt-4 text-lg text-muted-foreground">
+      <p className="text-muted-foreground mt-4 text-lg">
         Minhas reflexões sobre tecnologia, desenvolvimento e carreira.
       </p>
       <div className="mt-8 space-y-6">
@@ -15,10 +15,10 @@ export default function BlogPage() {
           <Link
             href={`/blog/${slug}`}
             key={slug}
-            className="block rounded-lg border p-4 transition-colors hover:bg-muted"
+            className="hover:bg-muted block rounded-lg border p-4 transition-colors"
           >
             <h2 className="text-2xl font-semibold">{title}</h2>
-            <p className="text-sm text-muted-foreground mt-1">{date}</p>
+            <p className="text-muted-foreground mt-1 text-sm">{date}</p>
             <p className="mt-2">{description}</p>
           </Link>
         ))}

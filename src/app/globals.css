@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -118,5 +118,15 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply mb-8 text-4xl font-semibold tracking-tight lg:text-5xl;
+  }
+
+  .paragraph {
+    @apply mb-4 max-w-lg text-2xl;
   }
 }
