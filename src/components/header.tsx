@@ -1,11 +1,28 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ThemeToggle } from './theme-toggle';
 
 export function Header() {
   return (
-    <header className="mx-auto py-4">
-      <nav className="container mx-auto flex items-center justify-between">
-        <ul className="flex gap-4">
+    <header className="h-20 w-full shadow-xl">
+      <nav className="container mx-auto grid h-full grid-cols-[1fr_auto_1fr] items-center justify-between">
+        <div />
+        <ul className="flex items-center gap-6 justify-self-center text-2xl">
+          <li>
+            <Link
+              href="/"
+              aria-label="Página inicial"
+              className="flex items-center"
+            >
+              <Image
+                src="/logo/logo.svg"
+                alt="japbastos"
+                width={80}
+                height={80}
+                priority
+              />
+            </Link>
+          </li>
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -25,7 +42,9 @@ export function Header() {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
-        {/* <ThemeToggle /> */}
+        <div className="flex justify-end">
+          <ThemeToggle />
+        </div>
       </nav>
     </header>
   );

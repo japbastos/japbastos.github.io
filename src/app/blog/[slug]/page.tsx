@@ -16,7 +16,7 @@ export function generateStaticParams() {
 
 export default async function BlogPostPage({ params }: BlogPostParams) {
   const { slug } = await params;
-  console.log('aow', params, slug);
+
   let post;
 
   try {

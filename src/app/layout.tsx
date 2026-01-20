@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className={`${ubuntu.className} flex min-h-screen flex-col`}>
+      <body className={`${ubuntu.className} flex h-screen flex-col`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -34,7 +34,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-1 overflow-hidden">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
