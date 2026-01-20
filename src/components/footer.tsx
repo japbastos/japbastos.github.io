@@ -30,7 +30,7 @@ const socials = [
 
 export function Footer() {
   return (
-    <footer className="mt-auto my-8">
+    <footer className="mx-auto my-6">
       <ul className="flex justify-center gap-6">
         {socials.map(({ href, label, icon: Icon }) => (
           <li key={label}>

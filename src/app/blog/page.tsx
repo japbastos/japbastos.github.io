@@ -5,9 +5,8 @@ export default function BlogPage() {
   const allPosts = getSortedPostsData();
 
   return (
-    <section className="container mx-auto h-[calc(100vh-8rem)]">
-      <h1 className="text-4xl font-bold">Blog</h1>
-      <p className="text-muted-foreground mt-4 text-lg">
+    <section className="centred container">
+      <p className="mt-4 text-xl">
         Minhas reflexões sobre tecnologia, desenvolvimento e carreira.
       </p>
       <div className="mt-8 space-y-6">

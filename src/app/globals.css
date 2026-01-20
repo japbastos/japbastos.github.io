@@ -4,6 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --color-brand-secondary: var(--brand-secondary);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -76,10 +77,11 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+  --brand-secondary: #974aaa;
 }
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
+  --background: #171a21;
   --foreground: oklch(0.984 0.003 247.858);
   --card: oklch(0.208 0.042 265.755);
   --card-foreground: oklch(0.984 0.003 247.858);
@@ -123,10 +125,18 @@
 
 @layer components {
   .section-title {
-    @apply mb-8 text-4xl font-semibold tracking-tight lg:text-5xl;
+    @apply mb-8 text-4xl tracking-tight lg:text-5xl;
   }
 
   .paragraph {
     @apply mb-4 max-w-lg text-2xl;
+  }
+
+  .centred {
+    @apply mx-auto flex h-[calc(100vh-8rem)] flex-col items-center justify-self-center;
+  }
+
+  .quoted {
+    @apply before:bg-brand-secondary relative mx-auto pl-6 before:absolute before:top-0 before:left-0 before:h-full before:w-2.5 before:rounded-full before:content-[''];
   }
 }

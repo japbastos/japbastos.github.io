@@ -4,13 +4,13 @@ import { Textarea } from '@/components/ui/textarea';
 
 export default function ContactPage() {
   return (
-    <section className="container mx-auto h-[calc(100vh-8rem)]">
+    <section className="centred container">
       <h1 className="text-4xl font-bold">Contato</h1>
       <p className="text-muted-foreground mt-4 text-lg">
         Entre em contato comigo através do formulário abaixo.
       </p>
 
-      <form className="mt-8 max-w-lg space-y-4">
+      <form className="mt-8 w-lg space-y-4">
         <div>
           <label htmlFor="name" className="mb-2 block text-sm font-medium">
             Nome

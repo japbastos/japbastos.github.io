@@ -1,11 +1,33 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
+import Image from 'next/image';
+
+const techIcons = [
+  {
+    alt: 'typescript',
+    path: '/logo/TypeScript.svg'
+  },
+  {
+    alt: 'node',
+    path: '/logo/Node.svg'
+  },
+  {
+    alt: 'nest',
+    path: '/logo/Nest.svg'
+  },
+  {
+    alt: 'react',
+    path: '/logo/React.svg'
+  },
+  {
+    alt: 'next',
+    path: '/logo/Next.svg'
+  }
+];
 
 export default function Home() {
   return (
-    <section className="container mx-auto flex h-[calc(100vh-8rem)] items-center justify-center text-center">
+    <section className="centred container mt-10 overflow-auto text-center">
       <div className="flex items-center justify-between gap-12">
         <div>
           <img
@@ -28,6 +50,33 @@ export default function Home() {
             experiences.
           </p>
         </div>
+      </div>
+      <div className="mt-10 text-center">
+        <h1 className="section-title">What I do? 🤔</h1>
+        <div className="quoted w-4xl">
+          <p className="text-2xl italic">
+            I build modern, high-performance web applications with a focus on
+            usability, clean design, and scalability. Passionate about creating
+            elegant digital experiences, I work across the stack—from frontend
+            UI to backend APIs.
+          </p>
+        </div>
+      </div>
+      <div className="mt-10 text-center">
+        <h1 className="section-title">Main Tech Stack ⚡</h1>
+        <ul className="mt-8 flex gap-14">
+          {techIcons.map((item) => (
+            <li key={item.alt}>
+              <Image
+                src={item.path}
+                alt={item.alt}
+                width={80}
+                height={80}
+                priority
+              />
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );

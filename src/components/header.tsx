@@ -4,7 +4,7 @@ import { ThemeToggle } from './theme-toggle';
 
 export function Header() {
   return (
-    <header className="h-20 w-full shadow-xl">
+    <header className="h-20 w-full shadow-md">
       <nav className="container mx-auto grid h-full grid-cols-[1fr_auto_1fr] items-center justify-between">
         <div />
         <ul className="flex items-center gap-6 justify-self-center text-2xl">
@@ -42,7 +42,7 @@ export function Header() {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
-        <div className="flex justify-end">
+        <div className="mr-6 flex justify-end">
           <ThemeToggle />
         </div>
       </nav>

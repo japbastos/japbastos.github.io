@@ -31,8 +31,8 @@ export default async function BlogPostPage({ params }: BlogPostParams) {
   }
 
   return (
-    <article className="prose dark:prose-invert container mx-auto py-8">
-      <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
+    <article className="prose dark:prose-invert centred container mx-auto py-8">
+      <h1 className="text-2xl font-bold tracking-tight lg:text-5xl">
         {post.title}
       </h1>
       <p className="text-muted-foreground">{post.date}</p>
