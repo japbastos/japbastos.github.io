@@ -125,7 +125,7 @@
 
 @layer components {
   .section-title {
-    @apply mb-8 text-4xl tracking-tight lg:text-5xl;
+    @apply text-4xl tracking-tight lg:text-5xl;
   }
 
   .paragraph {

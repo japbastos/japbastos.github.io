@@ -8,11 +8,13 @@ import {
 } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import ExperienceTimeline from './experience-timeline';
 
-export default function ProjectsPage() {
+export default function ExperiencePage() {
   return (
     <section className="container mx-auto py-8">
-      <h1 className="text-4xl font-bold">Meus Projetos</h1>
+      <ExperienceTimeline />
+
       <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <Card>
           <CardHeader>

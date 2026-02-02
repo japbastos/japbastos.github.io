@@ -37,8 +37,16 @@ export default function Home() {
           />
         </div>
         <div className="text-justify">
-          <h1 className="section-title">Hi, I'm João Bastos 👋</h1>
+          <h1 className="section-title mb-6">Hi, I'm João Bastos 👋</h1>
           <p className="paragraph">
+            Software Engineer and Technical Lead with 7+ years of experience
+            building scalable web platforms using JavaScript and TypeScript.
+          </p>
+          <p className="text-muted-foreground">
+            Focused on system architecture, code quality, and developer
+            experience.
+          </p>
+          {/* <p className="paragraph">
             A computer engineer by choice, a teacher at heart, and a lifelong
             technology enthusiast.
           </p>
@@ -48,22 +56,39 @@ export default function Home() {
           <p className="paragraph">
             I am always striving to learn, evolve, and create impactful digital
             experiences.
-          </p>
+          </p> */}
         </div>
       </div>
+      <div>
+        <a
+          className="bg-brand-secondary hover:bg-brand-primary mt-4 inline-block rounded-md px-4 py-2 text-white transition-colors"
+          href="/experience"
+        >
+          View my professional experience →
+        </a>
+      </div>
       <div className="mt-10 text-center">
-        <h1 className="section-title">What I do? 🤔</h1>
+        <h1 className="section-title mb-6">What I do? 🤔</h1>
         <div className="quoted w-4xl">
           <p className="text-2xl italic">
+            I help teams build scalable and maintainable web applications with a
+            strong focus on usability, clean design, and performance. From
+            frontend UI to backend APIs, I work across the stack to deliver
+            reliable and elegant digital experiences.
+          </p>
+          {/* <p className="text-2xl italic">
             I build modern, high-performance web applications with a focus on
             usability, clean design, and scalability. Passionate about creating
             elegant digital experiences, I work across the stack—from frontend
             UI to backend APIs.
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="mt-10 text-center">
         <h1 className="section-title">Main Tech Stack ⚡</h1>
+        <p className="text-muted-foreground my-4">
+          Technologies I work with daily
+        </p>
         <ul className="mt-8 flex gap-14">
           {techIcons.map((item) => (
             <li key={item.alt}>
