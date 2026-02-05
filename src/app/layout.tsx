@@ -26,16 +26,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className={`${ubuntu.className} flex h-screen flex-col`}>
+      <body className={`${ubuntu.className} h-screen overflow-hidden`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-          <Header />
-          <main className="flex-1 overflow-hidden">{children}</main>
-          <Footer />
+          <div className="flex h-screen flex-col">
+            <Header />
+            <main className="flex-1 overflow-hidden">{children}</main>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>

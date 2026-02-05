@@ -27,11 +27,11 @@ const techIcons = [
 
 export default function Home() {
   return (
-    <section className="centred container mt-10 overflow-auto text-center">
+    <section className="h-full overflow-auto centred container mt-10 text-center">
       <div className="flex items-center justify-between gap-12">
         <div>
           <img
-            className="h-[300] w-[300] rounded-full"
+            className="w-40 md:w-72 rounded-full"
             src="https://avatars.githubusercontent.com/u/7764204?v=4"
             alt="japbastos"
           />
