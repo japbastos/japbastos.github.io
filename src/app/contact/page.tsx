@@ -27,17 +27,15 @@ function ContactForm() {
     try {
       const token = await executeRecaptcha('contact_form');
       
-      const response = await fetch('/api/contact', {
+      const response = await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL!, {
         method: 'POST',
+        mode: 'no-cors',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, message, recaptchaToken: token }),
       });
 
-      if (!response.ok) {
-        const error = await response.json();
-        throw new Error(error.error || 'Failed to send message');
-      }
-
+      // With mode: 'no-cors', we can't read response data, 
+      // but a successful POST will trigger the script.
       setStatus('success');
       setName('');
       setEmail('');
