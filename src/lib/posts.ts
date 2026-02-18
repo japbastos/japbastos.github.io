@@ -39,14 +39,23 @@ export async function getPostData(slug: string) {
 
   const matterResult = matter(fileContents);
 
+  // Extract first image if it exists in content and not in frontmatter
+  const imageRegex = /!\[.*?\]\((.*?)\)/;
+  const imageMatch = matterResult.content.match(imageRegex);
+  const coverImage = (matterResult.data.coverImage as string) || imageMatch?.[1] || null;
+
+  // Remove the first image from content if we're using it as a cover
+  const contentToProcess = imageMatch ? matterResult.content.replace(imageMatch[0], '') : matterResult.content;
+
   const processedContent = await remark()
     .use(html)
-    .process(matterResult.content);
+    .process(contentToProcess);
   const contentHtml = processedContent.toString();
 
   return {
     slug,
     contentHtml,
+    coverImage,
     ...(matterResult.data as {
       title: string;
       date: string;
