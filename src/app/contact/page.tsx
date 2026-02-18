@@ -27,11 +27,19 @@ function ContactForm() {
     try {
       const token = await executeRecaptcha('contact_form');
       
-      const response = await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL!, {
+      const formData = new URLSearchParams();
+      formData.append('name', name);
+      formData.append('email', email);
+      formData.append('message', message);
+      formData.append('recaptchaToken', token);
+
+      await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL!, {
         method: 'POST',
         mode: 'no-cors',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, message, recaptchaToken: token }),
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: formData.toString(),
       });
 
       // With mode: 'no-cors', we can't read response data, 
