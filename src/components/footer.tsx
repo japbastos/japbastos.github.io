@@ -12,7 +12,7 @@ const socials = [
     icon: Github
   },
   {
-    href: 'https://instagram.com/ojapbastos',
+    href: 'https://instagram.com/jap.bastos',
     label: 'Instagram',
     icon: Instagram
   },
