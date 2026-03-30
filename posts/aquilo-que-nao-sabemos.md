@@ -4,7 +4,7 @@ date: '2021-06-28'
 description: 'Reflexões sobre aprendizado, medo e a jornada de volta ao desenvolvimento. | Reflections on learning, fear, and the journey back to development.'
 ---
 
-![Cover Image](https://media.licdn.com/dms/image/v2/C4D12AQGJ66_PYngfRA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1624911862712?e=1773273600&v=beta&t=rp04F9aaMMOdGtCPYts0kvoYtjQ9K0uhjxzJAv8CgA8)
+![Cover Image](https://media.licdn.com/dms/image/v2/C4D12AQGJ66_PYngfRA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1624911862712?e=1776297600&v=beta&t=EzVM0RhyZgvgViLmZr0bRpXG-zoV-Xoztz0WaAGjvYM)
 
 **PT-BR Version:**
 
