@@ -4,7 +4,7 @@ date: '2023-04-23'
 description: 'Reflexões sobre o processo de luto, auto conhecimento e a importância de respeitar o próprio tempo. | Reflections on the grieving process, self-knowledge, and the importance of respecting one''s own time.'
 ---
 
-![Cover Image](https://media.licdn.com/dms/image/v2/D4D12AQH_MQqDZH86wQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1682345372212?e=1773273600&v=beta&t=pp92MXUN6Ig08eqbJ_WyfnPFHkiztlsDTOMc-E6W3p0)
+![Cover Image](https://media.licdn.com/dms/image/v2/D4D12AQH_MQqDZH86wQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1682345372212?e=1776297600&v=beta&t=UBrICpfmeDozL9oOR4W2n60908_XELO51Rhv3XWOntI)
 
 **PT-BR Version:**
 
