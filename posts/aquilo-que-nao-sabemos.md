@@ -48,7 +48,4 @@ And it's interesting that much of all this you learn in life. I saw in a speech 
 
 And when I talk about what we don't know, I bring a recent experience, returning to my birthday, I bought myself some books as a gift, to improve, study and be able to bring some content. And when I picked up one of the books I bought to read, I realized that I already used, understood the concepts and practiced that almost daily, and hence the reflection, many times we think we know little or almost nothing, and it's even more interesting when we realize that even with this certainty: that we know very little, yet we know much more than we imagine.
 
-Anyway, don't be afraid, take risks, assume you don't know much and chase after it to learn. But remember, there is still much more to be learned and you already know much more than you imagine. O segredo é ir atrás daquilo que ainda não sabemos.
-
-
-
+Anyway, don't be afraid, take risks, assume you don't know much and chase after it to learn. But remember, there is still much more to be learned and you already know much more than you imagine. The secret is to go after what we don’t yet know.
