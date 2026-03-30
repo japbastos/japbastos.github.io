@@ -4,7 +4,7 @@ date: '2022-09-01'
 description: 'Uma homenagem e reflexão sobre o legado de minha mãe. | A tribute and reflection on my mother''s legacy.'
 ---
 
-![Cover Image](https://media.licdn.com/dms/image/v2/C4D12AQHPWYFwoF4-Iw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1641732032158?e=1773273600&v=beta&t=8AS3KGrupQXbKY50Lw8nptQ1VbOVuoCGtWqfwc3SQXM)
+![Cover Image](https://media.licdn.com/dms/image/v2/C4D12AQHPWYFwoF4-Iw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1641732032158?e=1776297600&v=beta&t=QTOvlsTx7_IzL571pKWSFX_Kw1VaUZ_Xqnq_53yngnU)
 
 **PT-BR Version:**
 
