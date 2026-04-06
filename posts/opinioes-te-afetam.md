@@ -26,7 +26,7 @@ Eu resolvi voltar a escrever, e começando por aqui como um artigo, os meus arti
 
 **US-EN Version:**
 
-### What We Don't Know
+### Do opinions affect you?
 
 Well, it’s been a while since I last wrote here—mainly because of some opinions and comments.
 
