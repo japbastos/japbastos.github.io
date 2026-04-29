@@ -4,7 +4,7 @@ date: '2026-04-20'
 description: 'Reflexão sobre o que realmente é uma opinião em um mundo onde vendas, influência e IA se misturam. | Reflection on what an opinion really is in a world where sales, influence, and AI are intertwined.'
 ---
 
-![Cover Image](https://media.licdn.com/dms/image/v2/D4E12AQEyHaG5sSJGGw/article-cover_image-shrink_720_1280/B4EZ2q5W7xKEAI-/0/1776688667939?e=1778112000&v=beta&t=FpabQLsLbJYdF5uI6009iKp1NL28-6LiSF3pgO56aF4)
+![Cover Image](/assets/o-que-e-opiniao.png)
 
 **PT-BR Version:**
 

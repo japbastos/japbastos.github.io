@@ -4,7 +4,7 @@ date: '2026-03-30'
 description: 'Reflexão sobre a influência da opinião dos outros na nossa vida. | Reflection on the influence of others’ opinions on our lives.'
 ---
 
-![Cover Image](https://media.licdn.com/dms/image/v2/D4E12AQFI-HmucO07gw/article-cover_image-shrink_720_1280/B4EZ0_Px76IQAI-/0/1774882598561?e=1776297600&v=beta&t=yfNhbt73aPCw-W_QxMSqX5MyTEyRAYlfoKU3fMN6Uk8)
+![Cover Image](/assets/opinioes-te-afetam.png)
 
 **PT-BR Version:**
 
